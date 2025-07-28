@@ -5,39 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
     <link rel="stylesheet" href="Styles/style.css">
+    <script src="scripts/script.js" defer></script>
 </head>
 <body>
-<div id="header">
-    <div id="menu">
+    <div id="header">
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-            </ul>
+            <div>Ranjana Kaushik</div>
+                <div class="menu-toggle" onclick="toggleMenu()">
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
     </div>
-    <h1>Contact Me</h1>
-</div>
-<p>If you would like to get in touch, please contact on below contact details:</p>
-<p>
-    <p>Ranjana Kaushik</p>
-    <p>Address: 16 Chartreuse Close</p>
-    <p>City: Rugby</p>
-    <p>County: Warwickshire</p>
-    <p>Postcode: CV22 5BY</p>
-    <p>Country: United Kingdom</p>
-    <p>Email: <a href="mailto: ranjanaeng@gmail.com">ranjanaeng@gmail.com </a></p>           
-    <p>Mobile: +44 7553 360117</p>
-    <p>Website: <a href="https://ranjanaeng.github.io/PersonalPortfolio/">ranjanaeng.github.io/PersonalPortfolio</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ranjana-k-0b615b68/">Ranjana Kaushik</a></p>
-    <p>GitHub: <a href="https://github.com/ranjanaeng">Ranjana Kaushik</a></p>
-    <p>Twitter: <a href="https://twitter.com/ranjanaeng">Ranjana Kaushik</a></p>
-    <p>Facebook: <a href="https://www.facebook.com/ranjana.kaushik.9/">Ranjana Kaushik</a></p>
-    <p>Instagram: <a href="https://www.instagram.com/ranjan_chandan_nivika_nivik/">Ranjana Kaushik</a></p>    
-</p>   
+    <div id="contactme">
+        <h2>Contact Me</h2>
+        <p>I'm open to collaboration, contract, or full-time roles in tech leadership and service delivery.</p>
+        <ul>
+            <li>Address: 16 Chartreuse Close, Rugby, Warwickshire, CV22 5BY, United Kingdom</li>
+            <li>Website: <a href="https://ranjanaeng.github.io/PersonalPortfolio/">ranjanaeng.github.io/PersonalPortfolio</a></li>
+            <li>Email: <a href="mailto:ranjanaeng@gmail.com">ranjanaeng@gmail.com</a></li>
+            <li>Mobile: +44 7553 360117</li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank">View Profile</a></li>
+            <li>GitHub: <a href="https://github.com/ranjanaeng">GitHub Account</a></li>
+        </ul>
+    </div>
+             
+<button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>  
 <div id="footer">
-    <p>&copy; 2025 Ranjana Kaushik. All rights reserved.</p>
+    <footer>
+        <p>&copy; 2025 Ranjana Kaushik. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin">LinkedIn</i></a>
+          <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope">Email</i></a>
+          <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github">GitHub</i></a>
+        </div>
+      </footer>
 </div> 
 </body>  
 </html>
