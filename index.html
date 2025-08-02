@@ -6,26 +6,34 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="Styles/style.css">
     <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <div id="header">
-        <nav>
-            <div>Ranjana Kaushik</div>
-                <div class="menu-toggle" onclick="toggleMenu()">
-            </div>
-            <div class="nav-links" id="navLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
+<div id="container">
+  <div id="header">
+    <div class="off-screen-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="clientprojects.html">Client Projects</a>
+      <a href="contact.html">Contact</a>
     </div>
+   
+    <nav>
+      <div>Ranjana Kaushik</div>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
 
-    <div id="introduction">
+  </div>
+    <section id="introduction">
         <h1>Welcome to My Portfolio</h1>
         <div id="profileimage">
-            <img src="Images/profile.jpg" alt="Ranjana Kaushik">
+            <img src="Images/profile.jpg" alt="Ranjana Kaushik – Technical Lead and Service Delivery Specialist and Front-End Developer" title="Ranjana Kaushik – Technical Lead and Service Delivery Specialist and Front-End Developer">
         </div>
         <h2>Hello, I'm <span class="highlight">Ranjana Kaushik</span></h2>
         <p>Technical Lead | Service Delivery Expert | Front-End Developer</p>
@@ -33,17 +41,21 @@
         <p>Feel free to explore the links above to learn more about me and my work.</p>
         <a href="projects.html" class="btn">View My Projects</a>
         <a href="docs/Ranjana_Kaushik_Resume.pdf" class="btn" download>Download Resume</a>    
-    </div>
+    </section>
     <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
     <div id="footer">
         <footer>
             <p>&copy; 2025 Ranjana Kaushik. All rights reserved.</p>
             <div class="social-icons">
-              <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin">LinkedIn</i></a>
-              <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope">Email</i></a>
-              <a href="https://github.com/ranjanaeng" target="_blank" aria-label="GitHub"><i class="fab fa-github">GitHub</i></a>
+              <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+              <a href="https://github.com/ranjanaeng" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://www.facebook.com/ranjana.kaushik.9" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/ranjan_chandan_nivika_nivik/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>   
+              <a href="https://x.com/RanjanaKaushik1" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
             </div>
           </footer>
     </div>
+</div>
 </body>
 </html>
