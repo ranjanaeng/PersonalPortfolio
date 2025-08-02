@@ -16,14 +16,18 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 - HTML, CSS, JavaScript, GitHub Pages
 
 ## 📸 Screenshots
-
-_Add screenshots of your portfolio here to give visitors a preview of your site/app._
+Home-Page : porfolio-screenshots/Home-Page.png
+AboutMe : porfolio-screenshots/AboutMe.png
+Projects : porfolio-screenshots/Projects.png
+Client-Projects : porfolio-screenshots/Client-Projects.png
+ContactMe : porfolio-screenshots/ContactMe.png
 
 ## 📂 Structure
 
 ```
-├── launch.json
-├── Certification/
+├── .vscode
+│   ├── launch.json
+├── certification/
 │   ├── Azure-Certificate.pdf
 │   ├── CSM-Certificate.png
 │   └── ITIL-Certificate.pdf
@@ -35,10 +39,12 @@ _Add screenshots of your portfolio here to give visitors a preview of your site/
 │   ├── profile.jpg
 ├── scripts/
 │   ├── script.js
-├── Styles/
+├── styles/
 │   ├── style.css
 ├── about.html
+├── clientprojects.html
 └── contact.html
+├── favicon.ico
 ├── index.html
 └── projects.html
 ├── README.md
@@ -52,8 +58,7 @@ To run this portfolio locally:
 ```bash
 git clone https://github.com/ranjanaeng/PersonalPortfolio.git
 cd PersonalPortfolio
-npm install
-npm start
+Start Development server in root of the project direcory npx http-server -p 8080
 ```
 
 ## 🎨 Customization
