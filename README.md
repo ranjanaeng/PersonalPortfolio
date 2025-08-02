@@ -16,11 +16,11 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 - HTML, CSS, JavaScript, GitHub Pages
 
 ## 📸 Screenshots
-Home-Page : porfolio-screenshots/Home-Page.png
-AboutMe : porfolio-screenshots/AboutMe.png
-Projects : porfolio-screenshots/Projects.png
-Client-Projects : porfolio-screenshots/Client-Projects.png
-ContactMe : porfolio-screenshots/ContactMe.png
+- Home-Page : porfolio-screenshots/Home-Page.png
+- AboutMe : porfolio-screenshots/AboutMe.png
+- Projects : porfolio-screenshots/Projects.png
+- Client-Projects : porfolio-screenshots/Client-Projects.png
+- ContactMe : porfolio-screenshots/ContactMe.png
 
 ## 📂 Structure
 
