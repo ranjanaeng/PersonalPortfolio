@@ -4,27 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <div id="header">
-        <nav>
-            <div>Ranjana Kaushik</div>
-                <div class="menu-toggle" onclick="toggleMenu()">
-            </div>
-            <div class="nav-links" id="navLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
+<div id="container">
+  <div id="header">
+    <div class="off-screen-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="clientprojects.html">Client Projects</a>
+      <a href="contact.html">Contact</a>
     </div>
-    <div id="contactme">
+   
+    <nav>
+      <div>Ranjana Kaushik</div>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+  </div>  
+    <section id="contactme" class="visible">
         <h2>Contact Me</h2>
         <p>I'm open to collaboration, contract, or full-time roles in tech leadership and service delivery.</p>
-        <ul>
+        <ul id="summary-list">
             <li>Address: 16 Chartreuse Close, Rugby, Warwickshire, CV22 5BY, United Kingdom</li>
             <li>Website: <a href="https://ranjanaeng.github.io/PersonalPortfolio/">ranjanaeng.github.io/PersonalPortfolio</a></li>
             <li>Email: <a href="mailto:ranjanaeng@gmail.com">ranjanaeng@gmail.com</a></li>
@@ -32,18 +41,22 @@
             <li>LinkedIn: <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank">View Profile</a></li>
             <li>GitHub: <a href="https://github.com/ranjanaeng">GitHub Account</a></li>
         </ul>
-    </div>
+    </section>
              
-<button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>  
-<div id="footer">
+    <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>  
+    <div id="footer">
     <footer>
         <p>&copy; 2025 Ranjana Kaushik. All rights reserved.</p>
         <div class="social-icons">
-          <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin">LinkedIn</i></a>
-          <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope">Email</i></a>
-          <a href="https://github.com/ranjanaeng" target="_blank" aria-label="GitHub"><i class="fab fa-github">GitHub</i></a>
+          <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/ranjanaeng" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/ranjana.kaushik.9" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/ranjan_chandan_nivika_nivik/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://x.com/RanjanaKaushik1" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         </div>
       </footer>
-</div> 
+    </div> 
+</div>
 </body>  
 </html>
