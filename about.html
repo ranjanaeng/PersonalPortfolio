@@ -4,33 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-    <div id="header">
-        <nav>
-            <div>Ranjana Kaushik</div>
-                <div class="menu-toggle" onclick="toggleMenu()">
-            </div>
-            <div class="nav-links" id="navLinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Me</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
+<div id="container">
+  <div id="header">
+    <div class="off-screen-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="clientprojects.html">Client Projects</a>
+        <a href="contact.html">Contact</a>
     </div>
-    <div id="aboutme">
+   
+    <nav>
+      <div>Ranjana Kaushik</div>
+      <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+  </div>
+    <section id="aboutme" class="visible">
+        <div id="aboutme-summary">
         <h2>About Me</h2>
         <p>I’m an experienced Technical Lead and Service Delivery Professional with over 18 years of expertise in building and supporting enterprise applications in BFSI and Airline domains.</p>
         <p>I have experience in various programming languages and frameworks, and I enjoy working on challenging projects that allow me to grow and learn.</p>
         <p>My core competencies include .NET Core, C#, Azure, Service  Delivery(Incident, Problem, change Mgmt), DevOps, and team leadership. I’ve led cross-functional teams, delivered high-availability applications, and managed full SDLCs with Agile, Scrum, and ITIL practices.</p>
-
+        </div>
         <div id="professional-summary">
             <h3>Professional Summary</h3>
             <div>
-                <ul>
+                <ul id="summary-list">
                     <li>Over 18 years of experience in software development and service delivery, with a strong focus on the BFSI and Airlines domains. </li>
                     <li>5+ years of expertise in Major Incident Management and IT Service Management (ITSM), ensuring rapid incident resolution and service restoration.</li>
                     <li>Proven ability to lead cross-functional teams during critical incidents while minimizing business impact and maintaining stakeholder confidence.</li>
@@ -56,7 +66,7 @@
         <div id="technical-skills">
             <h3>Technical Skills</h3>
             <div>
-                <table>
+                <table id="technical-skills-table">
                     <tr>
                         <th>Project & Service Management methodologies</th>
                         <td>Agile/Scrum, ITIL, DevOps, SIAM, Incident/Change/Release Mgmt, Lean, Waterfall</td>
@@ -80,7 +90,7 @@
                     </tr>
                     <tr>
                         <th>Databases</th>
-                        <td>Oracle, MySQL, MS SQL Server 2000-20014, Pl/SQL, MS-Access, DocBase </td>
+                        <td>Oracle, MySQL, MS SQL Server 2000-2014, Pl/SQL, MS-Access, DocBase </td>
                     </tr>
                     <tr>
                         <th>Web development</th>
@@ -93,7 +103,7 @@
                     </tr>
                     <tr>
                         <th>Testing Tools</th>
-                        <td>SOA (Para Soft) Testing Tool, Visual Studio Unit Test Project</td>
+                        <td>SOA (Para Soft) Testing Tool, Visual Studio Unit Test Project, Selenium WebDriver</td>
                     </tr>
                     <tr>
                         <th>Reporting</th>
@@ -113,19 +123,19 @@
         <div id="certifications">
             <h3>Certifications</h3>
             <div>
-                <ul>
-                    <li>ITIL V4 Foundation in Service Management: <a href="Certifications/ITIL-Certificate.pdf">View ITIL</a> </li>
-                    <li>Certified Scrum Master (CSM): <a href="Certifications/CSM-Certificate.png">View CSM</a></li>
-                    <li>Certified in Microsoft Azure Fundamentals: <a href="Certifications/Azure-Certificate.pdf">View Azure</a></li>
-                    <li>Microsoft Certified Technology Specialist (.Net Framework 3.5, ASP.Net Applications): <a href="Certifications/MCTS.pdf">View MCSTS</a></li>
-                    <li>Microsoft Certified Professional: <a href="Certifications/Microsoft-Certificate.pdf">View MCP</a></li>
+                <ul id="certification-list">
+                    <li>ITIL V4 Foundation in Service Management: <a href="certifications/ITIL-Certificate.pdf">View ITIL</a> </li>
+                    <li>Certified Scrum Master (CSM): <a href="certifications/CSM-Certificate.png">View CSM</a></li>
+                    <li>Certified in Microsoft Azure Fundamentals: <a href="certifications/Azure-Certificate.pdf">View Azure</a></li>
+                    <li>Microsoft Certified Technology Specialist (.Net Framework 3.5, ASP.Net Applications): <a href="certifications/MCTS.pdf">View MCSTS</a></li>
+                    <li>Microsoft Certified Professional: <a href="certifications/Microsoft-Certificate.pdf">View MCP</a></li>
                 </ul>
             </div>
         </div>
         <div id="education">
             <h3>Education</h3>
             <div>
-                <ul>
+                <ul id="education-list">
                     <li>Master of Business Administration, PGDBA- Finance Management, 07/2013 Symbiosis Centre for Distance Learning - Pune, India</li>
                     <p>Specialisation in Finance Management with 59.4 % </p>
                     <li>Bachelor of Engineering, Computer Science, 06/2005 R.I.E.T. Jaipur (Rajasthan University) - Jaipur, India </li>
@@ -136,7 +146,7 @@
         <div id="languages">
             <h3>Languages</h3>
             <div>
-                <ul>
+                <ul id="language-list">
                     <li>English (Fluent)</li>
                     <li>Hindi (Fluent)</li>
                 </ul>
@@ -145,7 +155,7 @@
         <div id="interests">
             <h3>Interests</h3>
             <div>
-                <ul>
+                <ul id="interest-list">
                     <li>Open Source Contribution</li>
                     <li>Blogging about Technology</li>
                     <li>Mentoring and Coaching</li>
@@ -153,17 +163,21 @@
                 </ul>
             </div>
         </div>
-    </div>
-<button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
-<div id="footer">
+    </section>
+    <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Top</button>
+    <div id="footer">
     <footer>
         <p>&copy; 2025 Ranjana Kaushik. All rights reserved.</p>
         <div class="social-icons">
-          <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin">LinkedIn</i></a>
-          <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope">Email</i></a>
-          <a href="https://github.com/ranjanaeng" target="_blank" aria-label="GitHub"><i class="fab fa-github">GitHub</i></a>
+          <a href="https://linkedin.com/in/ranjana-k-0b615b68" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:ranjanaeng@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/ranjanaeng" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.facebook.com/ranjana.kaushik.9" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/ranjan_chandan_nivika_nivik/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>   
+          <a href="https://x.com/RanjanaKaushik1" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
         </div>
       </footer>
+</div>
 </div>
 </body>
 </html> 
