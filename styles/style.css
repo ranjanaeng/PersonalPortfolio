@@ -287,21 +287,21 @@ a:hover{
   margin-bottom: 1em;
 }
 
-#summary-list, #certification-list, #education-list, #interest-list, #language-list {
+.summary-list, #certification-list, #education-list, #interest-list, #language-list {
   list-style-type: square;
   padding-left: 1em;
   margin: 0.5em 0;
   color: #1e3a8a;
 }
 
-#Tech-Environment {
+.Tech-Environment {
     list-style-type: none;
     padding-left: 1em;
     padding-bottom: 1em;
     margin: 0.5em 0;
     color: #1e3a8a;
 }
-#Tech-Environment li{
+.Tech-Environment li{
   padding-top: 0.5em;
 }
 
@@ -322,12 +322,12 @@ a:hover{
     text-align: left;   
     /*width: 200px; /* Fixed width for alignment */
 }
-#summary-list a,
+.summary-list a,
 #certification-list a {
     color: #6F86FF;
     text-decoration: none;
 }
-#summary-list a:hover
+.summary-list a:hover
 #certification-list a:hover {
    color: #1e3a8a;
   text-decoration: underline;
@@ -382,7 +382,7 @@ a:hover{
     padding: 0.5em;
     border: 1px solid #e2e8f0; /* Light gray border */
 }
-#order-list {
+.order-list {
     padding-left: 1em;
     margin: 0.5em 0;
     color: #1e3a8a;
