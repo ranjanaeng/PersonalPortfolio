@@ -14,6 +14,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 ## 🛠️ Built With
 
 - HTML, CSS, JavaScript, GitHub Pages
+- To use social media icons- stylesheet used https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
 
 ## 📸 Screenshots
 - Home-Page : porfolio-screenshots/Home-Page.png
@@ -35,12 +36,16 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 │   └── Microsoft-Certificate.pdf
 ├── docs/
 │   ├── Ranjana-Kaushik-Resume.pdf   
-├── Images/
+├── images/
 │   ├── profile.jpg
 ├── scripts/
 │   ├── script.js
 ├── styles/
 │   ├── style.css
+├── validation-reports/
+│   ├── css-validation.md
+│   ├── fix-log.md
+│   ├── html-validation.md
 ├── about.html
 ├── clientprojects.html
 └── contact.html
@@ -60,6 +65,14 @@ git clone https://github.com/ranjanaeng/PersonalPortfolio.git
 cd PersonalPortfolio
 Start Development server in root of the project direcory npx http-server -p 8080
 ```
+
+## Testing Tools
+
+| Validator           | Use For |  Link                                           |
+|---------------------|---------|-------------------------------------------------|
+| W3C HTML            | HTML    |   https://validator.w3.org/#validate_by_input   |
+| W3C CSS             | CSS     | http://jigsaw.w3.org/css-validator/             |
+
 
 ## 🎨 Customization
 
