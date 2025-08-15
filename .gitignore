@@ -1,0 +1,26 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Archive files 
+*.zip
+*.tar.gz
+

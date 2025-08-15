@@ -44,7 +44,12 @@
 }
 /* off-screen-menu a:hover */
 .off-screen-menu a:hover {
-  color: #6F86FF;
+  color: white;
+}
+.off-screen-menu a.current {
+  font-weight: bold;
+  color: white; 
+  border-bottom: 3px solid white; 
 }
 
 /* ham menu */
@@ -59,7 +64,7 @@
 .ham-menu span {
     height: 5px;
     width: 100%;
-    background-color: #6F86FF;
+    background-color: white;
     border-radius: 25px;
     position: absolute;
     left: 50%;
@@ -100,7 +105,7 @@
 body{
       font-family: 'Open Sans', sans-serif;
       margin: 0;
-      background-color: #f9fafb;
+      background-color: #FCFCFD;
       color: #1e3a8a;
       scroll-behavior: smooth;
       height: 100%;
@@ -164,7 +169,11 @@ nav {
   z-index: 1000;
   box-shadow: 0 1px 4px rgba(0,0,0,0.05);
 }
-
+nav a.current {
+  font-weight: bold;
+  color: white; 
+  border-bottom: 3px solid white; 
+}
 /* Headers */
 h1{
     font-size: 2em;
@@ -185,12 +194,12 @@ h3 {
 }
 
 .highlight{
-    color: #10b981;
+    color: #074B34;
 }
 
 /* Buttons */
 button, .btn {
-  background-color: #10b981;
+  background-color: #074B34;
   color: #ffffff;
   border: none;
   padding: 0.6em 1.2em;
@@ -201,7 +210,8 @@ button, .btn {
   text-decoration: none;
 }
 button:hover, .btn:hover {
-  background-color: #14265c;
+  background-color: #1e3a8a;
+  color : #ffffff;
 }
 
 .project-name {
@@ -248,7 +258,7 @@ footer {
   }
 /* Links */
 a{
-    color: #6F86FF;
+    color: #0021C7;
     text-decoration: none;
     word-break: break-word; /* Ensure long words break */
 }
@@ -259,7 +269,7 @@ a:hover{
 
 /* Cards */
 .card {
-  background-color: #ffffff; /* White card on light bg */
+  background-color: white; /* White card on light bg */
   border-radius: 12px;
   padding: 1.5em;
   margin-bottom: 1.5em;
@@ -324,7 +334,7 @@ a:hover{
 }
 .summary-list a,
 #certification-list a {
-    color: #6F86FF;
+    color: #0021C7;
     text-decoration: none;
 }
 .summary-list a:hover
@@ -348,7 +358,7 @@ a:hover{
 }
 
 .project-card a {
-  color: #6F86FF;
+  color: #0021C7;
   word-break: break-word;
 }
 .project-card a:hover {
