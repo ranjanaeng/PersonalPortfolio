@@ -17,11 +17,22 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 - To use social media icons- stylesheet used https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
 
 ## 📸 Screenshots
-- Home-Page : porfolio-screenshots/Home-Page.png
-- AboutMe : porfolio-screenshots/AboutMe.png
-- Projects : porfolio-screenshots/Projects.png
-- Client-Projects : porfolio-screenshots/Client-Projects.png
-- ContactMe : porfolio-screenshots/ContactMe.png
+
+### Home Page
+![Home Page](porfolio-screenshots/Home-Page.png)
+
+### About Me
+![About Me](porfolio-screenshots/AboutMe.png)
+
+### Projects
+![Projects](porfolio-screenshots/Projects.png)
+
+### Client Projects
+![Client Projects](porfolio-screenshots/Client-Projects.png)
+
+### Contact Me
+![Contact Me](porfolio-screenshots/ContactMe.png)
+
 
 ## 📂 Structure
 
@@ -38,6 +49,12 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 │   ├── Ranjana-Kaushik-Resume.pdf   
 ├── images/
 │   ├── profile.jpg
+├── vportfolio-screenshots/
+│   ├── AboutMe.png
+│   ├── Client-Projects.png
+│   ├── ContactMe.png
+│   ├── Home-Page.png
+│   ├── Projects.png
 ├── scripts/
 │   ├── script.js
 ├── styles/
@@ -46,6 +63,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 │   ├── css-validation.md
 │   ├── fix-log.md
 │   ├── html-validation.md
+├── .gitignore
 ├── about.html
 ├── clientprojects.html
 └── contact.html
@@ -65,6 +83,13 @@ git clone https://github.com/ranjanaeng/PersonalPortfolio.git
 cd PersonalPortfolio
 Start Development server in root of the project direcory npx http-server -p 8080
 ```
+
+## 🚀 Deployment
+GItHub Pages website : https://ranjanaeng.github.io/PersonalPortfolio/
+
+## 📌 Credits
+[Using icons on footer](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css)
+
 
 ## Testing Tools
 
